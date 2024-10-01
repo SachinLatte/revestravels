@@ -1,0 +1,101 @@
+/* Basic Slider
+--------------------------------------------------------------------------------------------------------------- */
+.txtoverlay{display:block; position:absolute; bottom:0; left:0; width:100%; height:100%; margin:0; padding:0; white-space:normal;}
+.centralise{display:block; max-width:978px; height:100%; margin:0 auto; padding:0;}
+.verticalwrap{display:table; width:100%; height:100%; border:none; text-align:center; top:0; position:relative;}
+.txtoverlay article{/*display:table-cell; padding:0; border:none; vertical-align:middle;*/ /*float: right;*/ float:none; 
+    margin: 0 auto;
+    margin-top: 200px;
+	padding:50px 0;
+    text-align: left;
+    /*width: 420px;*/ width:650px;  /*background: rgba(255, 255, 255, .5);*/}
+.txtoverlay .heading{ /*color: #fff;*/ /*color:#f26412;*/
+    display: block;
+    font-family: 'KeepCalm-Medium';
+    font-size: 51.45px;
+    line-height: 60px;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase; /*text-shadow: 2px 2px 2px rgba(79, 79, 79, 0.7);*/ text-align:center; text-shadow: 2px 2px 2px rgba(37, 37, 37, 1); color:#fff;}
+	
+	.heading{ /*color: #fff;*/ color:#f26412;
+    display: block;
+    font-family: 'KeepCalm-Medium';
+    font-size: 51.45px;
+    line-height: 60px;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase; /*text-shadow: 2px 2px 2px rgba(79, 79, 79, 0.7);*/ text-align:center;}
+
+h2.heading span{display:block; font-family: 'KeepCalm-Medium';
+    font-size: 31.45px;
+    line-height: 50px; /*color:#fff;*/ /*color:#3c3c3c;*/ color:#fff;}
+	
+.txtoverlay p {/*color: #FFFFFF;*/ color:#f26412; font-family: 'KeepCalm-Medium'; font-size:15.35px; line-height: 25px; margin-top: 0px; padding-bottom:10px;}
+.txtoverlay a{color:#fff;font-size:13.43px;font-family: 'KeepCalm-Medium';line-height:36px; border:1px solid #fff;text-decoration:none;display:inline-block; padding:0 15px; text-transform:uppercase; transition: all 0.5s ease;}
+.txtoverlay a:hover {text-decoration:none; color:#fff; border-top:1px solid #fff; border-bottom:1px solid #fff; box-shadow: inset 150px 0 0 0 #ffc11b;}
+
+
+.txtoverlay .btn{display:inline-block; padding:15px 30px; border-radius:8px; text-transform:uppercase; font-weight:bold;}
+.txtoverlay .pushright{margin-right:25px;}
+
+.swipe-matter h2 {color: #fff; display: block; font-family: 'KeepCalm-Medium'; font-size: 31.45px; line-height: 50px; margin: 0; padding: 0; text-transform: uppercase;}
+
+
+
+@media screen and (max-width:480px)
+{	
+.verticalwrap{display:table; width:100%; height:100%; border:none; text-align:center; top:0; position:absolute;}
+.txtoverlay article{float:none; width:80%; margin:0 auto; padding:20px 0 15px 0; text-align:center; margin-top:60px;}
+.txtoverlay .heading{font-size:15px; line-height:22px; text-align:center;}
+.heading{font-size:15px; line-height:22px; text-align:center; position:relative; top:70px; /*text-shadow: 0px 1px 1px rgba(74, 74, 74, 1);*/ /*background-color:rgba(255, 255, 255, 0.7);*/ padding:5px 0; width:200px; margin:0 auto; /*color:#3c3c3c;*/ color:#fff; text-shadow: 2px 2px 2px rgba(37, 37, 37, 1);}
+.txtoverlay p{font-size:8px; line-height:12px;}
+.txtoverlay a{font-size:8px;}
+.flex-direction-nav .flex-next{right:10px !important;}
+.flex-direction-nav .flex-prev{left:10px !important;}
+.flex-direction-nav a{margin-top:-20px !important;}
+h2.heading span{font-size:10px; line-height:18px; color:#fff;}
+.heading span{font-size:10px; line-height:18px;}
+
+}
+
+
+@media screen and (min-width:481px) and (max-width:768px)
+{	
+.txtoverlay article{float:none; width:80%; margin:0 auto; padding:20px 0; text-align:center; margin-top:82px;}
+.txtoverlay .heading{font-size:25px; line-height:30px; text-align:center;}
+.txtoverlay p{font-size:12px;}
+.txtoverlay a{font-size:10px;}
+.flex-direction-nav .flex-next{right:10px !important; margin-top:-10px !important;}
+.flex-direction-nav .flex-prev{left:10px !important; margin-top:-10px !important;}
+h2.heading span{font-size:18px; line-height:18px;}
+
+}
+
+
+
+@media screen and (min-width:180px) and (max-width:900px) {
+	
+
+	/*.basicslider .heading{font-size:36px; line-height:36px; margin-bottom:15px;}
+	.basicslider .btn{padding:10px 25px;}*/
+
+}
+
+
+/* Max Wrapper Width - Laptop, Desktop etc.
+--------------------------------------------------------------------------------------------------------------- */
+@media screen and (min-width:978px) {
+	#header, #services, #cta, #breadcrumb, .container, #footer, #copyright{max-width:978px;}
+}
+
+
+/* Other
+--------------------------------------------------------------------------------------------------------------- */
+@media screen and (max-width:650px) {
+	.scrollable{display:block; width:100%; margin:0 0 30px 0; padding:0 0 15px 0; overflow:auto; overflow-x:scroll;}
+	.scrollable table{margin:0; padding:0; white-space:nowrap;}
+	/*.basicslider .txtoverlay{display:none}*/
+
+	
+}

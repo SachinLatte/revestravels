@@ -1,0 +1,13 @@
+.errorMsg{
+	padding: 1px 0px 0px 15px;
+	bottom: 30px;
+	position: relative;
+	display: none;
+	color: red;
+	font-family: verdana;
+	font-size: 13px;
+	float:left;
+}
+input{
+	z-index:10000;
+}

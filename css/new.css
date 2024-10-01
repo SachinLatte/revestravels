@@ -1,0 +1,381 @@
+.pd-main {
+  padding: 60px 0;
+}
+.tf-container {
+  max-width: 1320px;
+  width: 100%;
+  margin: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.mb-37 {
+  margin-bottom: 23px;
+}
+.relative {
+  position: relative;
+}
+.destination-style {
+  border-radius: 7px;
+  overflow: hidden;
+  display: block;
+  height: 100%;
+}
+.destination-style::before {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0), rgb(0 0 0 / 75%));
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  position: absolute;
+  content: "";
+  z-index: 1;
+}
+.destination-style .tour {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16px;
+  color: #FFFFFF;
+  background-color: #FF970D;
+  text-transform: uppercase;
+  padding: 10px 30px;
+  border-radius: 4px;
+  top: 14px;
+  right: 12px;
+  position: absolute;
+  z-index: 2;
+}
+.destination-style > img {
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  object-fit: cover;
+  height: 100%;
+}
+.destination-style .destination-content {
+  bottom: 34px;
+  left: 33px;
+  position: absolute;
+  z-index: 2;
+}
+.destination-style .destination-content .travel {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  text-transform: capitalize;
+  font-family: "Yesteryear", cursive;
+}
+.destination-style .destination-content p {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 40px;
+}
+.destination-style:hover > img {
+  transform: scale(1.2) rotate(-1deg);
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.mb-40 {
+  margin-bottom: 40px;
+}
+.flex-three {
+  display: flex;
+  align-items: center;
+}
+.single-destinaion-content .image-wrap {
+  gap: 30px;
+}
+.side-bar-right {
+  padding-left: 33px;
+}
+
+.sidebar-widget .block-heading {
+  text-transform: capitalize;
+  padding-left: 15px;
+  position: relative;
+  margin-bottom: 22px;
+  color: #000000;
+}
+.sidebar-widget .block-heading::before {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 2px;
+  background-color: #4DA528;
+  left: 0;
+}
+.sidebar-widget .category-blog li:not(:last-child) {
+  margin-bottom: 21px;
+}
+.sidebar-widget .category-blog li a {
+  padding: 14px 16px;
+  background-color: #FFFFFF;
+  border: 1px solid #EDEEEE;
+  border-radius: 2px;
+  color: #4F545A;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.sidebar-widget:not(:last-child) {
+  margin-bottom: 31px;
+}
+.sidebar-widget {
+  padding: 34px 30px;
+  background-color: #F4F6F8;
+}
+.flex-two {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+.sidebar-widget .category-blog li a span {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+}
+.category-blog, .listing-des{
+  margin: 0;
+  padding: 0;
+}
+.single-destinaion-content .description-wrap .description {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  margin-bottom: 16px;
+  display: inline-block;
+  color: #081E2A;
+}
+.single-destinaion-content .description-wrap .listing-des li {
+  padding-left: 23px;
+  position: relative;
+}
+.single-destinaion-content .description-wrap .listing-des li::before {
+  width: 7px;
+  height: 7px;
+  background-color: #f36b1c;
+  border-radius: 100%;
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.single-destinaion-content .inner-haeder .title {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  margin-bottom: 24px;
+}
+.bg-part-gray {
+  background-color: #EEE9E9;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+.booking-style-1 {
+  padding: 32px 37px 55px 37px;
+}
+.overflow-hidden {
+  overflow: hidden !important;
+}
+.booking-style-1 .sale-up {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  display: block;
+}
+.text-main {
+  color: #4DA528 !important;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+.booking-style-1 .title {
+  font-size: 38px;
+  font-weight: 400;
+  line-height: 44px;
+  color: #081E2A;
+}
+.font-yes {
+  font-family: "Yesteryear", sans-serif;
+}
+.banner-part-item .btn-booking {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0.05em;
+  display: block;
+  text-decoration: none;
+}
+
+.tour1 {
+  color: #FBAD17;
+}
+.mt-27 {
+  margin-top: 27px;
+}
+.sidebar-widget-single .booking-style-1 .mask-banner-part {
+  position: relative;
+}
+
+.booking-style-1 .mask-banner-part {
+  width: auto;
+  position: absolute;
+  top: 27px;
+  right: 0;
+  transition: all 0.3s ease;
+}
+.sidebar-widget-single .booking-style-1 .price-banner-part {
+  top: 50%;
+  left: 15%;
+}
+.booking-style-1 .price-banner-part {
+  width: 65px;
+  height: 65px;
+  border-radius: 100%;
+  background-color: #4DA528;
+  font-size: 16px;
+  font-weight: 600;
+  color: #FFFFFF;
+  line-height: 20.83px;
+  position: absolute;
+  top: 23%;
+  left: 42%;
+}
+
+.center, .text-center {
+  text-align: center;
+}
+.flex-five {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.booking-style-1:hover .mask-banner-part {
+  scale: 1.1;
+}
+.mb--93 {
+  margin-bottom: -93px;
+}
+
+.z-index3 {
+  z-index: 3;
+}
+
+.flex-two {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+.callt-to-action {
+  background-color: #4DA528;
+  border-radius: 7px;
+  padding: 35px;
+  position: relative;
+}
+.callt-to-action .callt-to-action-content .image {
+  margin-right: 43px;
+}
+.callt-to-action .callt-to-action-content .image img {
+  width: 74px;
+}
+.callt-to-action .callt-to-action-content .content .title-call {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 45px;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+}
+.callt-to-action .callt-to-action-content .content .des {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  font-family: "DM Sans", sans-serif;
+  color: rgba(255, 255, 255, 0.52);
+  text-transform: capitalize;
+}
+.callt-to-action .shape-ab {
+  position: absolute;
+  width: auto;
+  right: 22%;
+  -webkit-animation: anime-rorate 8s infinite;
+  animation: anime-rorate 8s infinite;
+}
+@keyframes anime-rorate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(-15deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+.get-call {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 18.9px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: 23px 36px;
+  background-color: #FFFFFF;
+  color: #4DA528;
+  display: inline-block;
+  border-radius: 5px;
+  text-align: center;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.recent-image img{
+  width: 100%;
+  border-radius: 5px;
+}
+ a.recent-image{
+    float: left;
+    width: 30%;
+}
+.recent-info{
+  width: 70%;
+  float: right;
+}
+.recent-info .title a{
+  text-decoration: none;
+    color: #000;
+    font-size: 19px;
+}
+.recent-info .title {
+  padding-left: 10px;
+
+}
+.flex-start{
+  align-items: flex-start!important;
+}
+
+

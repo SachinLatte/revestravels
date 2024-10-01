@@ -1,0 +1,34 @@
+.errorMsg{
+	padding: 1px 0px 0px 15px;
+	bottom: 20px;
+	position: relative;
+	display: none;
+	color: red;
+	font-family: verdana;
+	font-size: 13px;
+	float:left;
+}
+/*input{
+	z-index:10000;
+}*/
+
+.errorMsg1{
+	padding: 1px 0px 0px 15px;
+	bottom: 20px;
+	position: relative;
+	display: none;
+	color: red;
+	font-family: verdana;
+	font-size: 13px;
+}
+.submitbtnHome{
+	background: #2A2B26;
+	padding: 8px 22px;
+	border: none;
+	position: relative;
+	top: 130px;
+	left: 396px;
+	color: #fff;
+	text-transform: uppercase;
+	cursor: pointer;
+}
